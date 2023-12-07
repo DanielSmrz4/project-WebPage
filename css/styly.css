@@ -260,6 +260,13 @@ nav ul li a:active {
 	width: 30%;
 }
 
+/* .q-position-form {
+	width: 90%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+} */
+
 input[type="submit"] {
 	font-size: 15px;
 }
