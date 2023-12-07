@@ -1,5 +1,11 @@
-@media screen only and (max-width: ) {
-	
+@media only screen and (max-width: 1200px){
+     .span-1of3{
+        width: 48%;
+    }
+    .q-position{
+        position: relative;
+        left: -162px;
+    }
 }
 
 
