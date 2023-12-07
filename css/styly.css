@@ -202,7 +202,8 @@ nav ul li a:active {
 	display: block;
 	margin: 0 auto;
 	margin-top: 30px;
-	width: 500px;
+	padding: 20px;
+	width: 100%;
 	text-align: center;
 	font-size: 14px;
 }
@@ -213,15 +214,18 @@ nav ul li a:active {
 	width: 100%;
 	height: 170px;
 	margin-bottom: 5px;
-	padding: 5px;
+	padding: 7px;
 }
 
 .fotogalerie img {
 	width: 100%;
 	height: 100%;
 	border-radius: 25px;
-	box-shadow: 2px 2px 8px #000;
-	
+	box-shadow: 2px 2px 8px #000;	
+}
+
+.fotogalerie-padd {
+	padding: 15px;
 }
 
 /**Newsletter**/
