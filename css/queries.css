@@ -29,6 +29,16 @@
     }
 }
 
+@media only screen and (max-width: 800px){
+    h1{
+        width: 90%;
+        padding: 20px;
+    }
+    h1:after{
+        width: 97%;
+    }
+}
+
 @media only screen and (max-width: 650px){
     #responsive-constelation-img {
         width: 100%;
@@ -40,6 +50,13 @@
         height: 80%;
         margin-left: 15%;
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    h1{
+        width: 70%;
+        padding: 20px;
     }
 }
 
