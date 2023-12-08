@@ -1,9 +1,11 @@
+/*Responzivní odstavce souhvezdi*/
 @media only screen and (max-width: 1300px){
     #constelation {
         width: 80%;
     }
 }
 
+/*Responzivní části v sekci Závěr*/
 @media only screen and (max-width: 1200px) and (min-width: 1000px){
      .span-1of3{
         width: 48%;
@@ -29,6 +31,7 @@
     }
 }
 
+/*Responzivní sekce header - nadpis h1*/
 @media only screen and (max-width: 800px){
     h1{
         width: 90%;
@@ -39,6 +42,7 @@
     }
 }
 
+/*Responzivní obrázky souhvezdi*/
 @media only screen and (max-width: 650px){
     #responsive-constelation-img {
         width: 100%;
@@ -53,6 +57,7 @@
     }
 }
 
+/*Responzivní sekce header - nadpis h1*/
 @media only screen and (max-width: 550px){
     h1{
         width: 70%;
