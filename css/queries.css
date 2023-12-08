@@ -97,8 +97,7 @@
         height: 110px;
         position: fixed;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        /* display: none; */
+        background: rgba(0, 0, 0, 0.7);
     }
     .mobile-nav-icon{
         display: inline-block;
