@@ -1,9 +1,11 @@
+/*Responzivní odstavce souhvezdi*/
 @media only screen and (max-width: 1300px){
     #constelation {
         width: 80%;
     }
 }
 
+/*Responzivní části v sekci Závěr*/
 @media only screen and (max-width: 1200px) and (min-width: 1000px){
      .span-1of3{
         width: 48%;
@@ -40,6 +42,25 @@
     }
 }
 
+/*Responzivní sekce header - nadpis h1*/
+@media only screen and (max-width: 800px){
+    h1{
+        width: 90%;
+        padding: 20px;
+    }
+    h1:after{
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 736px){
+    h1:after{
+        width: 97%;
+        display: none;
+    }
+}
+
+/*Responzivní obrázky souhvezdi*/
 @media only screen and (max-width: 650px){
     #responsive-constelation-img {
         width: 100%;
@@ -54,12 +75,41 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
+/*Responzivní sekce header - nadpis h1*/
+@media only screen and (max-width: 550px){
+    h1{
+        width: 70%;
+        left: 0;
+        transform: translate(0%, 0%);
+        text-align: justify;
+        padding: 20px;
+    }
+    h1:after{
+        display: none;
+    }
+    
+    /*Responzivní navigace*/
+    nav ul li {
+        display: block;
+        text-align: left;
+    }
+    .mobile-nav-back{
+        height: 110px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* display: none; */
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: fixed;
+        right: 0.5%;
+        display: none;
+    }
+    .navigace{
+        left: 75%;
+        background-color: #ffffff00;
+        z-index: 200;
+        float: right;
+    } 
+}

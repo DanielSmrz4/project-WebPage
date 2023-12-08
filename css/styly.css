@@ -114,6 +114,16 @@ nav ul li a:active {
 	transition: border-bottom;
 	border-bottom: 1.5px solid #fff;
 }
+
+.mobile-nav-icon {
+	float: right;
+	margin-top: 7px;
+	display: none;
+}
+.mobile-nav-icon img{
+	width: 70%;
+}
+
 /**********Main**********/
 
 /*Section-Cassiopeia*/
@@ -203,8 +213,8 @@ nav ul li a:active {
 	margin: 0 auto;
 	margin-top: 30px;
 	padding: 20px;
-	width: 100%;
-	text-align: center;
+	width: 85%;
+	text-align: justify;
 	font-size: 14px;
 }
 /**Fotogalerie**/
