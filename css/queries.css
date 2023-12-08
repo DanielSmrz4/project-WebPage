@@ -38,7 +38,14 @@
         padding: 20px;
     }
     h1:after{
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 736px){
+    h1:after{
         width: 97%;
+        display: none;
     }
 }
 
@@ -61,16 +68,37 @@
 @media only screen and (max-width: 550px){
     h1{
         width: 70%;
+        left: 0;
+        transform: translate(0%, 0%);
+        text-align: justify;
         padding: 20px;
     }
+    h1:after{
+        display: none;
+    }
+    
+    /*Responzivní navigace*/
+    nav ul li {
+        display: block;
+        text-align: left;
+    }
+    .mobile-nav-back{
+        height: 110px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* display: none; */
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        position: fixed;
+        right: 0.5%;
+        display: none;
+    }
+    .navigace{
+        left: 75%;
+        background-color: #ffffff00;
+        z-index: 200;
+        float: right;
+    } 
 }
-
-
-
-
-
-
-
-
-
-
